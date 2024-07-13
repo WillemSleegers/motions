@@ -522,8 +522,10 @@
     "subject": "Motie Waalkens/Ormel over een onafhankelijke onderzoekscommissie ",
     "decision": "Accepted",
     "parties": 11,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2009Z24233",
@@ -608,8 +610,10 @@
     "subject": "Motie Snijder-Hazelhoff over het vaccineren van dieren op niet besmette melkgeiten- en melkschapenbedrijven ",
     "decision": "Accepted",
     "parties": 11,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2009Z24971",
@@ -650,8 +654,10 @@
     "subject": "Gew. motie Cramer c.s. over het vragen van aanvullend advies aan deskundigen inzake herhaald individueel testen (t.v.v. 28286, nr. 343)",
     "decision": "Accepted",
     "parties": 11,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2010Z01618",
@@ -670,8 +676,10 @@
     "subject": "Motie Van Gerven over waarschuwingsborden bij alle besmette bedrijven",
     "decision": "Accepted",
     "parties": 11,
+    "votes_nay": 0,
     "votes_yea": 149,
-    "votes_na": 1
+    "votes_na": 1,
+    "seats_total": 150
   },
   {
     "motion": "2010Z01620",
@@ -712,8 +720,10 @@
     "subject": "Motie Waalkens en Ormel over instellen van een themacommissie dierhouderij",
     "decision": "Accepted",
     "parties": 11,
+    "votes_nay": 0,
     "votes_yea": 149,
-    "votes_na": 1
+    "votes_na": 1,
+    "seats_total": 150
   },
   {
     "motion": "2010Z01625",
@@ -721,8 +731,10 @@
     "subject": "Motie Ormel c.s. over vaccineren van alle schapen en geiten in Nederland tegen Q-koorts",
     "decision": "Accepted",
     "parties": 11,
+    "votes_nay": 0,
     "votes_yea": 149,
-    "votes_na": 1
+    "votes_na": 1,
+    "seats_total": 150
   },
   {
     "motion": "2010Z01627",
@@ -741,8 +753,10 @@
     "subject": "Motie Ormel en Van der Vlies over vergaren van zo veel mogelijk informatie over drachtige dieren op besmette bedrijven ",
     "decision": "Accepted",
     "parties": 11,
+    "votes_nay": 0,
     "votes_yea": 149,
-    "votes_na": 1
+    "votes_na": 1,
+    "seats_total": 150
   },
   {
     "motion": "2010Z01630",
@@ -915,8 +929,10 @@
     "subject": "Motie Ormel c.s. over een advies van de deskundigencommissie over het fokverbod",
     "decision": "Accepted",
     "parties": 11,
+    "votes_nay": 0,
     "votes_yea": 149,
-    "votes_na": 1
+    "votes_na": 1,
+    "seats_total": 150
   },
   {
     "motion": "2010Z07115",
@@ -1111,8 +1127,10 @@
     "subject": "Motie Van Gerven over uitvoering van de aanbevelingen van de commissie-Van Dijk ",
     "decision": "Accepted",
     "parties": 10,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2011Z00409",
@@ -1164,8 +1182,10 @@
     "subject": "Motie Van Veldhoven en Wiegman-van Meppelen Scheppink over een alarmprocedure",
     "decision": "Accepted",
     "parties": 10,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2011Z00417",
@@ -1228,8 +1248,10 @@
     "subject": "Motie Ouwehand c.s. over de fok van honden en andere dieren ",
     "decision": "Accepted",
     "parties": 10,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2011Z03104",
@@ -1270,8 +1292,10 @@
     "subject": "Motie Van Gerven over een verbod op doorfokken ",
     "decision": "Accepted",
     "parties": 10,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2011Z03109",
@@ -1290,8 +1314,10 @@
     "subject": "Motie Ormel en Snijder-Hazelhoff over Europese regels voor dierenwelzijn ",
     "decision": "Accepted",
     "parties": 10,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2011Z03113",
@@ -1299,8 +1325,10 @@
     "subject": "Motie Ormel over controleren of dode gezelschapsdieren gechipt zijn ",
     "decision": "Accepted",
     "parties": 10,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2011Z03115",
@@ -1308,8 +1336,10 @@
     "subject": "Motie Graus en Ouwehand over de levende have op Schiphol ",
     "decision": "Accepted",
     "parties": 10,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2011Z03117",
@@ -1361,8 +1391,10 @@
     "subject": "Motie Ouwehand en Jacobi over de inzet voor het nieuwe EU dierenwelzijnsactieplan",
     "decision": "Accepted",
     "parties": 10,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2011Z13711",
@@ -1469,8 +1501,10 @@
     "subject": "Gew motie Ormel c.s. over een plan van aanpak voor reductie van risico's door ESBL (t.v.v. 28286, nr. 553)",
     "decision": "Accepted",
     "parties": 10,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2012Z11819",
@@ -2215,8 +2249,10 @@
     "subject": "Motie van het lid Jacobi over grootschalige dumpingen van drugsafval in de natuur ",
     "decision": "Accepted",
     "parties": 12,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2014Z01721",
@@ -3731,8 +3767,10 @@
     "subject": "Motie van de leden De Groot en Von Martels over een landelijk expertisecentrum voor complexe honden",
     "decision": "Accepted",
     "parties": 13,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2018Z23008",
@@ -3982,8 +4020,10 @@
     "subject": "Motie van het lid Graus c.s. over het opnemen van de Afrikaanse leeuw in Cites",
     "decision": "Accepted",
     "parties": 13,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2019Z09716",
@@ -4134,8 +4174,10 @@
     "subject": "Motie van de leden Graus en Wassenberg over in gesprek gaan met gemeenten en provincies over de zorgplicht voor wilde of verwilderde dieren ",
     "decision": "Accepted",
     "parties": 15,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2019Z24953",
@@ -4308,8 +4350,10 @@
     "subject": "Motie van het lid De Groot over de voedselveiligheid en dierenwelzijn borgen",
     "decision": "Accepted",
     "parties": 15,
+    "votes_nay": 0,
     "votes_yea": 150,
-    "votes_na": 0
+    "votes_na": 0,
+    "seats_total": 150
   },
   {
     "motion": "2020Z21355",
@@ -4944,8 +4988,10 @@
     "subject": "Motie van het lid Eerdmans c.s. over het waarborgen van fysieke inspecties bij slachthuizen door de NVWA",
     "decision": "Accepted",
     "parties": 20,
+    "votes_nay": 0,
     "votes_yea": 147,
-    "votes_na": 2
+    "votes_na": 2,
+    "seats_total": 149
   },
   {
     "motion": "2022Z09663",

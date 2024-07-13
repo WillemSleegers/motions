@@ -15,11 +15,15 @@ import { ChartConfig, ChartContainer } from "@/components/ui/chart"
 const chartConfig = {
   nay: {
     label: "Nay",
-    color: "hsl(var(--chart-1))",
+    color: "hsl(var(--chart-2))",
   },
   yay: {
     label: "Yay",
-    color: "hsl(var(--chart-2))",
+    color: "hsl(var(--chart-1))",
+  },
+  na: {
+    label: "Did not vote",
+    color: "hsl(var(--chart-3))",
   },
 } satisfies ChartConfig
 
@@ -27,23 +31,25 @@ type VotesProps = {
   chartData: {
     yay: number
     nay: number
+    na: number
   }[]
+  seats: number
 }
 
-export const Votes = ({ chartData }: VotesProps) => {
+export const Votes = ({ chartData, seats }: VotesProps) => {
   return (
     <ChartContainer config={chartConfig} className="h-[80px] w-full">
       <BarChart accessibilityLayer data={chartData} layout="vertical">
         <XAxis
           dataKey="yay"
           type="number"
-          domain={[0, 150]}
-          ticks={[0, 75, 150]}
+          domain={[0, seats]}
+          ticks={[0, 75, seats]}
           axisLine={false}
         />
         <YAxis type="category" hide />
         <CartesianGrid horizontal={false} />
-        <Bar dataKey="yay" stackId="a" fill="var(--color-yay)" radius={5}>
+        <Bar dataKey="yay" stackId="a" fill="var(--color-yay)" radius={0}>
           <LabelList
             dataKey="yay"
             position="insideLeft"
@@ -52,9 +58,18 @@ export const Votes = ({ chartData }: VotesProps) => {
             fontSize={12}
           />
         </Bar>
-        <Bar dataKey="nay" stackId="a" fill="var(--color-nay)" radius={5}>
+        <Bar dataKey="nay" stackId="a" fill="var(--color-nay)" radius={0}>
           <LabelList
             dataKey="nay"
+            position="insideLeft"
+            offset={8}
+            className="fill-black"
+            fontSize={12}
+          />
+        </Bar>
+        <Bar dataKey="na" stackId="a" fill="var(--color-na)" radius={0}>
+          <LabelList
+            dataKey="na"
             position="insideLeft"
             offset={8}
             className="fill-white"
