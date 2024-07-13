@@ -1,11 +1,20 @@
 "use client"
 
-import { MultiSelect } from "@/components/multi-select"
 import { Input } from "@/components/ui/input"
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible"
+import { MultiSelect } from "@/components/multi-select"
 
 import motions from "@/assets/data/motions.json"
 import { Votes } from "@/components/charts/votes"
+
 import { useEffect, useState } from "react"
+
+import { columnsVotes } from "@/components/tables/columns-votes"
+import { DataTable } from "@/components/tables/data-table"
 
 type dataProps = typeof motions
 
@@ -45,9 +54,9 @@ const Motions = () => {
         {data &&
           data.map((m) => {
             return (
-              <div className="my-6" key={m.motion}>
-                <hr className="my-10"></hr>
-                <p className="font-medium text-center text-xl mb-3">
+              <div className="my-" key={m.motion}>
+                <hr className="mb-6"></hr>
+                <p className="font-medium text-center text-lg mb-3">
                   {m.subject}
                 </p>
 
@@ -59,11 +68,17 @@ const Motions = () => {
                 />
                 <p
                   className={`font-medium text- text-center text-lg ${
-                    m.decision == "Accepted" ? "text-primary" : "text-black"
+                    m.decision == "Aangenomen" ? "text-primary" : "text-black"
                   }`}
                 >
                   {m.decision}
                 </p>
+                <Collapsible className="mb-6">
+                  <CollapsibleTrigger>Detail stemming</CollapsibleTrigger>
+                  <CollapsibleContent className="py-3">
+                    <DataTable columns={columnsVotes} data={m.votes} />
+                  </CollapsibleContent>
+                </Collapsible>
               </div>
             )
           })}
