@@ -46,7 +46,7 @@ const Motions = () => {
   return (
     <main className="max-w-2xl m-auto">
       <h2 className="text-4xl font-bold text-center mt-6 mb-9">Moties</h2>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3 mb-6">
         <Input placeholder="Zoek moties..." onChange={searchHandler} />
         <MultiSelect label="Filter onderwerpen" />
       </div>

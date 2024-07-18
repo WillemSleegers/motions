@@ -19,7 +19,7 @@ import {
 } from "@/components/ui/popover"
 import { Badge } from "@/components/ui/badge"
 
-const frameworks = [
+const topics = [
   {
     value: "livestock",
     label: "Livestock",
@@ -44,12 +44,7 @@ type MultiSelectProps = {
 
 export const MultiSelect = ({ label }: MultiSelectProps) => {
   const [open, setOpen] = React.useState(false)
-  const [value, setValue] = React.useState<string[]>([
-    "dogs",
-    "chickens",
-    "cows",
-    "livestock",
-  ])
+  const [value, setValue] = React.useState<string[]>([])
 
   return (
     <Popover open={open} onOpenChange={setOpen}>
@@ -73,10 +68,12 @@ export const MultiSelect = ({ label }: MultiSelectProps) => {
       </div>
       <PopoverContent className="w-[200px] p-0">
         <Command>
-          <CommandInput placeholder="Search topic..." />
-          <CommandEmpty>No topics found.</CommandEmpty>
+          <CommandInput placeholder="Zoek onderwerpen..." />
+          <CommandEmpty className="m-3 text-sm">
+            Geen onderwerpen gevonden.
+          </CommandEmpty>
           <CommandGroup>
-            {frameworks.map((topic) => (
+            {topics.map((topic) => (
               <CommandItem
                 key={topic.value}
                 value={topic.value}

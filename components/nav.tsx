@@ -1,4 +1,8 @@
+"use client"
+
+import { cn } from "@/lib/utils"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 const items = [
   {
@@ -7,24 +11,29 @@ const items = [
   },
   {
     title: "Moties",
-    href: "/motions/",
+    href: "/motions",
   },
   {
     title: "Partijen",
-    href: "/parties/",
+    href: "/parties",
   },
   {
     title: "Meer info",
-    href: "/about/",
+    href: "/about",
   },
 ]
 
 export function Nav() {
+  const currentPath = usePathname()
+
   return (
-    <nav className="m-auto py-3 flex justify-center">
+    <nav className="m-auto py-3 flex gap-3 justify-center border-b">
       {items.map((e) => (
         <Link
-          className="px-3 py-2 text-base text-gray-500  hover:text-black"
+          className={cn(
+            "px-3 py-1 text-base text-gray-500  hover:text-black",
+            currentPath == e.href ? "bg-muted text-foreground rounded-full" : ""
+          )}
           href={e.href}
           key={e.title}
         >

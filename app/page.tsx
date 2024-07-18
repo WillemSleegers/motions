@@ -7,10 +7,8 @@ const Home = () => {
   return (
     <main>
       <div className="flex flex-col gap-3 py-12 items-center">
-        <h1 className="text-5xl font-bold text-center mb-3 ">
-          Dierenwelzijn moties in de Tweede Kamer
-        </h1>
-        <p className="text-center text-xl max-w-2xl">
+        <h1>Dierenwelzijn moties in de Tweede Kamer</h1>
+        <p className="lead max-w-2xl text-center">
           Bekijk hoe de politieke partijen in Nederland stemmen op moties over
           dierenwelzijn en bepaal waar je eigen stem heen moet.
         </p>
