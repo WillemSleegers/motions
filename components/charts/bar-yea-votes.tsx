@@ -1,6 +1,5 @@
 "use client"
 
-import { TrendingUp } from "lucide-react"
 import { Bar, BarChart, XAxis, YAxis } from "recharts"
 
 import {
@@ -31,6 +30,8 @@ const chartConfig = {
 
 export const BarYeaVotes = (props: BarYeaVotesProps) => {
   const { chartData } = props
+  console.log(chartData.length * 30)
+  const height = chartData.length * 25
   return (
     <Card>
       <CardHeader>
@@ -38,15 +39,12 @@ export const BarYeaVotes = (props: BarYeaVotesProps) => {
         <CardDescription>Aantal 'Voor' stemmen / aantal moties</CardDescription>
       </CardHeader>
       <CardContent>
-        <ChartContainer className="h-[1000px] w-full" config={chartConfig}>
-          <BarChart
-            accessibilityLayer
-            data={chartData}
-            layout="vertical"
-            margin={{
-              left: -20,
-            }}
-          >
+        <ChartContainer
+          className="w-full"
+          style={{ height: height }}
+          config={chartConfig}
+        >
+          <BarChart accessibilityLayer data={chartData} layout="vertical">
             <XAxis type="number" dataKey="yea_prop" hide />
             <YAxis
               dataKey="party"
@@ -55,6 +53,7 @@ export const BarYeaVotes = (props: BarYeaVotesProps) => {
               tickMargin={10}
               axisLine={false}
               width={200}
+              interval={0}
             />
             <ChartTooltip
               cursor={false}
@@ -65,7 +64,7 @@ export const BarYeaVotes = (props: BarYeaVotesProps) => {
         </ChartContainer>
       </CardContent>
       <CardFooter className="flex-col items-start gap-2 text-sm">
-        Iets hier zeggen?
+        TBD
       </CardFooter>
     </Card>
   )
